@@ -1,0 +1,70 @@
+.profiletable {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 80%;
+    height: 350px;
+  }
+  
+   .profiletable tbody tr td ul {
+    margin: 0; 
+    padding: 0; 
+   }
+  
+  .profiletable tbody tr td ul li {
+    margin: 0; 
+    padding: 2px !important; 
+  }
+  
+  .profiletable tbody tr td ul,
+  .profiletable tbody tr td ul li {
+    box-sizing: border-box;
+  }
+  
+  .profiletable tbody tr td ul li {
+    vertical-align: top; 
+  }
+  
+  .profiletable tbody tr th, .profiletable tbody tr td  {
+    vertical-align: top; 
+  }
+  
+  .profiletable tbody tr td ul li {
+    list-style-type: none;
+    background-color: transparent !important; 
+  }
+
+  .form-data-light {
+     background-color: rgb(251, 236, 236);
+     color: black;
+     width: 50%;
+     border: 1px solid #060000;
+     box-shadow: 0 0 10px rgba(236, 8, 8, 0.883);
+    }
+
+  .form-data-dark {
+      background-color: rgb(57, 54, 54);
+      color: white;
+      width: 50%;
+      border: 1px solid #f6f2f2;
+      box-shadow: 0 0 10px rgba(235, 233, 233, 0.883);
+  }
+
+  .form-data-blue {
+      background-color: rgb(131, 208, 249);
+      color: black;
+      width: 50%;
+      border: 1px solid #060000;
+      box-shadow: 0 0 10px rgba(1, 87, 63, 0.883);
+  }
+
+  .form-data-greenary {
+      background-color: rgb(210, 247, 209);
+      color: black;
+      width: 50%;
+      border: 1px solid #060000;
+      box-shadow: 0 0 10px rgba(165, 236, 11, 0.883);
+  }
+
+  .module-button {
+    display: flex;
+    flex-direction: row;
+  }

@@ -1,0 +1,18 @@
+.quill-container {
+display: flex;            
+align-items: center;      
+justify-content: flex-start; 
+padding: 20px;            
+border: 1px solid #ccc;   
+margin-top: 20px;         
+}
+  
+  
+.react-quill {
+ flex-grow: 1;             
+ margin-right: 20px;       
+}
+  
+.quill {
+padding: 10px;
+}

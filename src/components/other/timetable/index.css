@@ -1,0 +1,262 @@
+.day {
+    margin-bottom: 10px;
+}
+  
+.day-title-light {
+    background-color: rgb(143, 142, 140);
+    color: white;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.day-title-dark {
+    background-color: rgb(216, 232, 179);
+    color: black;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.day-title-blue {
+    background-color: rgb(56, 91, 112);
+    color: white;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.day-title-greenary {
+    background-color: rgb(45, 118, 58);
+    color: white;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.day-title-light:hover {
+    background-color: rgb(69, 55, 55); 
+    color : white;
+    font-weight: bold;
+}
+.day-title-dark:hover {
+    background-color: #f0caca;
+    color : black;
+    font-weight: bold;
+}
+.day-title-blue:hover {
+    background-color: #0056b3;
+    color : black;
+    font-weight: bold;
+}
+.day-title-greenary:hover {
+    background-color: rgb(136, 232, 154);
+    color : black; 
+    font-weight: bold;
+}
+
+.events-light {
+    padding: 10px;
+    background-color: rgb(251, 236, 236);
+    border: 1px solid #050101;
+    color : #050101;
+    margin-top: 5px;
+}
+.events-dark {
+    padding: 10px;
+    background-color: rgb(57, 54, 54);
+    border: 1px solid #fefbfb;
+    color : #f7f3f3;
+    margin-top: 5px;
+}
+.events-blue {
+    padding: 10px;
+    background-color: rgb(131, 208, 249);
+    border: 1px solid #090000;
+    color : #050101;
+    margin-top: 5px;
+}
+.events-greenary {
+    padding: 10px;
+    background-color: rgb(210, 247, 209);
+    border: 1px solid #0f0e0e;
+    color : #0f0e0e;
+    margin-top: 5px;
+}
+
+.event {
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button {
+    background-color: rgb(236, 90, 90);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.delete-button:hover {
+    background-color: rgb(236, 127, 127);
+    color : black;
+    font-weight: bold;
+}
+
+.timetable-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0px 10px 0px 10px;
+}
+
+#weeklySchedule-light table {
+    width: 80%;
+    height: 300px;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #weeklySchedule-dark table {
+    width: 80%;
+    height: 300px;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  #weeklySchedule-blue table {
+    width: 80%;
+    height: 300px;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #weeklySchedule-greenary table {
+    width: 80%;
+    height: 300px;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  #weeklySchedule-light th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  #weeklySchedule-dark th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  #weeklySchedule-blue th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  #weeklySchedule-greenary th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  #weeklySchedule-light th {
+    background-color: rgb(251, 97, 26);
+    color: rgb(6, 0, 0);
+  }
+
+  #weeklySchedule-dark th {
+    background-color:rgb(1, 34, 24);
+    color: white;
+  }
+
+  #weeklySchedule-blue th {
+    background-color: rgb(9, 36, 50);
+    color: white;
+  }
+
+  #weeklySchedule-greenary th {
+    text-align: center;
+    background-color: rgb(29, 39, 29);
+    color: rgb(251, 249, 249);
+  }
+  
+  #weeklySchedule-light tr:nth-child(even) {
+    background-color: #f9f9f9;
+    color: black;
+    font-weight: bold;
+  }
+
+  #weeklySchedule-dark tr:nth-child(even) {
+    background-color: #f9f9f9;
+    color: black;
+    font-weight: bold;
+  }
+
+  #weeklySchedule-blue tr:nth-child(even) {
+    background-color: #f9f9f9;
+    color: black;
+    font-weight: bold;
+  }
+
+  #weeklySchedule-greenary tr:nth-child(even) {
+    background-color: #f9f9f9;
+    color: black;
+    font-weight: bold;
+  }
+  
+  #weeklySchedule-light tr:nth-child(odd) {
+    background-color:rgb(244, 168, 145);
+    color: rgb(19, 3, 3);
+    font-weight: bold;
+  }
+
+  #weeklySchedule-dark tr:nth-child(odd) {
+    background-color:rgb(63, 121, 125);
+    color: rgb(14, 1, 1);
+    font-weight: bold;
+  }
+
+  #weeklySchedule-blue tr:nth-child(odd) {
+    background-color:  rgb(15, 86, 91);
+    color: rgb(254, 250, 250);
+    font-weight: bold;
+  }
+
+  #weeklySchedule-greenary tr:nth-child(odd) {
+    background-color: rgb(165, 240, 119);
+    color: rgb(1, 0, 0);
+    font-weight: bold;
+  }
+  
+  
+  #weeklySchedule-light .today {
+    background-color: rgb(143, 142, 140);
+    color: black;
+  }
+
+  #weeklySchedule-dark .today {
+    background-color: rgb(216, 232, 179);
+    color: black;
+  }
+
+  #weeklySchedule-blue .today {
+    background-color: rgb(56, 91, 112);
+    color: black;
+  }
+
+  #weeklySchedule-greenary .today {
+    background-color: rgb(45, 118, 58);
+    color: black;
+  }
